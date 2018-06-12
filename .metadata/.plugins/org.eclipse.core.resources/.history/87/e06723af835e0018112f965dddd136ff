@@ -1,0 +1,15 @@
+package jdbcServlet;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Conection 
+{
+	public static void main(String[] args) throws IOException 
+	{
+		File f = new File("config.properties");
+		f.createNewFile();
+		
+	}
+
+}

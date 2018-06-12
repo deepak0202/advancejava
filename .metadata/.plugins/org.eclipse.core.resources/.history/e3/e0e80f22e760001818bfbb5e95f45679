@@ -1,0 +1,39 @@
+package sql;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Insert 
+{
+	public static boolean insertInLogin(String userName,String password)
+	{
+		Statement statement = null;
+		boolean inserted = false;
+		Connection con = SqlConnection.getConnectionObject();
+		try 
+		{
+			statement = con.createStatement();
+		}
+		catch (SQLException e) 
+		{
+			e.printStackTrace();
+		}
+		String sql = "insert into login values('"+userName+"',"+password+")";
+		try 
+		{
+			statement.execute(sql);
+			inserted = true;
+		}
+		catch (SQLException e) 
+		{
+			e.printStackTrace();
+		}
+		finally 
+		{
+			return inserted;
+		}
+		
+	}
+
+}

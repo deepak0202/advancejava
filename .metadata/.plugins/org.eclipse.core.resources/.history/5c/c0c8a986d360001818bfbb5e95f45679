@@ -1,0 +1,5 @@
+<form action="register">
+<input type="text" name="userName">
+<input type="password" name="password">
+<input type="submit" value="registration">
+</form>

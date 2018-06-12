@@ -1,0 +1,20 @@
+
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(œí¯÷ıÿÿÿÿH‰RMAJORZ
+CODE_SMELL
+d
+squid:S1064"9Replace this use of System.out or System.err by a logger.(å„”HŠRMAJORZ
+CODE_SMELL
+gsquid:S1118":Add a private constructor to hide the implicit public one.(„«ø¥H‹RMAJORZ
+CODE_SMELL
+vsquid:S21470"DCombine this catch with the one at line 44, which has the same body.(ÿ©„€ùÿÿÿÿHŒRMINORZ
+CODE_SMELL
+jsquid:UselessImportCheck"+Remove this unused import 'java.io.Writer'.(Î”øÿÿÿÿHRMINORZ
+CODE_SMELL
+nsquid:UselessImportCheck"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªgHRMINORZ
+CODE_SMELL
+csquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ğ¥ÅHRMINORZ
+CODE_SMELL
+Xsquid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHRMINORZVULNERABILITY
+Xsquid:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‘RMINORZVULNERABILITY
+Xsquid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH’RMINORZVULNERABILITY

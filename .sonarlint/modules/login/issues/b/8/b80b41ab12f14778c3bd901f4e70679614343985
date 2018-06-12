@@ -1,0 +1,31 @@
+
+Šsquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(”ª«ïûÿÿÿÿH“RCRITICALZVULNERABILITY
+Šsquid:S20775"RUse a variable binding mechanism to construct this query instead of concatenation.(”ª«ïûÿÿÿÿH”RCRITICALZVULNERABILITY
+…squid:S2077H"RUse a variable binding mechanism to construct this query instead of concatenation.(åçºëH•RCRITICALZVULNERABILITY
+…squid:S2077j"RUse a variable binding mechanism to construct this query instead of concatenation.(à’ëH–RCRITICALZVULNERABILITY
+tsquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(èû±öúÿÿÿÿH—RBLOCKERZBUG
+tsquid:S2095G"GUse try-with-resources or close this "Statement" in a "finally" clause.(èû±öúÿÿÿÿH˜RBLOCKERZBUG
+tsquid:S2095,"GUse try-with-resources or close this "Statement" in a "finally" clause.(èû±öúÿÿÿÿH™RBLOCKERZBUG
+tsquid:S2095a"GUse try-with-resources or close this "Statement" in a "finally" clause.(èû±öúÿÿÿÿHšRBLOCKERZBUG
+osquid:S2095H"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(åçºëH›RBLOCKERZBUG
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(àï€œHœRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(àï€œHRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â–‘öHRMAJORZ
+CODE_SMELL
+lsquid:S1118":Add a private constructor to hide the implicit public one.(äË¼ÒûÿÿÿÿHŸRMAJORZ
+CODE_SMELL
+rsquid:S22595"GA "NullPointerException" could be thrown; "statement" is nullable here.(”ª«ïûÿÿÿÿH RMAJORZBUG
+fsquid:S2259P"@A "NullPointerException" could be thrown; "rs" is nullable here.(†ÙåH¡RMAJORZBUG
+rsquid:S2259"GA "NullPointerException" could be thrown; "statement" is nullable here.(”ª«ïûÿÿÿÿH¢RMAJORZBUG
+msquid:S2259j"GA "NullPointerException" could be thrown; "statement" is nullable here.(à’ëH£RMAJORZBUG
+Xsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¤RMINORZVULNERABILITY
+Xsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¥RMINORZVULNERABILITY
+Xsquid:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¦RMINORZVULNERABILITY
+Xsquid:S1148:"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH§RMINORZVULNERABILITY
+Xsquid:S1148L"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¨RMINORZVULNERABILITY
+Xsquid:S1148W"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH©RMINORZVULNERABILITY
+Xsquid:S1148e"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHªRMINORZVULNERABILITY
+Xsquid:S1148n"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH«RMINORZVULNERABILITY

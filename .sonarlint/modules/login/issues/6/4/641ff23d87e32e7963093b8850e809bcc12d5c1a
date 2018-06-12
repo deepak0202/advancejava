@@ -1,0 +1,26 @@
+
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHğRINFOZ
+CODE_SMELL
+csquid:S11353"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHñRINFOZ
+CODE_SMELL
+`squid:S1481*".Remove this unused "userName1" local variable.(æÔ¬ÊüÿÿÿÿHòRMINORZ
+CODE_SMELL
+[squid:S1481+".Remove this unused "firstName" local variable.(ªˆˆ¶HóRMINORZ
+CODE_SMELL
+_squid:S1481,"-Remove this unused "lastName" local variable.(¥îÒ©üÿÿÿÿHôRMINORZ
+CODE_SMELL
+Zsquid:S1481-"(Remove this unused "age" local variable.(¢ßªÎøÿÿÿÿHõRMINORZ
+CODE_SMELL
+\squid:S00108=")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿHöRMAJORZ
+CODE_SMELL
+osquid:S1854*"=Remove this useless assignment to local variable "userName1".(æÔ¬ÊüÿÿÿÿH÷RMAJORZ
+CODE_SMELL
+jsquid:S1854+"=Remove this useless assignment to local variable "firstName".(ªˆˆ¶HøRMAJORZ
+CODE_SMELL
+nsquid:S1854,"<Remove this useless assignment to local variable "lastName".(¥îÒ©üÿÿÿÿHùRMAJORZ
+CODE_SMELL
+isquid:S1854-"7Remove this useless assignment to local variable "age".(¢ßªÎøÿÿÿÿHúRMAJORZ
+CODE_SMELL
+Xsquid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHûRMINORZVULNERABILITY
+lsquid:S1161 ":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHüRMAJORZ
+CODE_SMELL

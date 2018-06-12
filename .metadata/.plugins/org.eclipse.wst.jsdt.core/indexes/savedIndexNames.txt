@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/bridgeit/Desktop/advanceJava/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4130459154.index
+155178500.index
+722610765.index
+673885711.index
+521278207.index
+399848091.index

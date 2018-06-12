@@ -1,0 +1,34 @@
+package jdbc;
+
+import java.sql.*;
+
+public class CreateTable 
+{
+	public static void main(String[] args) 
+	{
+		try
+		{
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/deepak","root","root");
+			Statement statement = con.createStatement();
+			String sql = "create table tab1(name varchar(20),age int)";
+			statement.execute(sql);
+			System.out.println("done");
+		}
+		catch (ClassNotFoundException e) 
+		{
+			System.out.println("driver loading problem");
+			e.printStackTrace();
+		}
+		catch (SQLException e) 
+		{
+			System.out.println("conection problem");
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+	}
+
+}

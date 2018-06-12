@@ -1,0 +1,44 @@
+package conroller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class Registration
+ */
+public class Registration extends HttpServlet 
+{
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public Registration() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		PrintWriter printWriter = response.getWriter();
+		String userName = request.getParameter("userName");
+		String firstName = request.getParameter("firstName");
+		String lastName = request.getParameter("lastName");
+		String age = request.getParameter("age");
+		String password = request.getParameter("password");
+		printWriter.print(userName);
+		printWriter.print(firstName);
+		printWriter.print(lastName);
+		printWriter.print(age);
+		printWriter.print(password);
+	}
+
+}
